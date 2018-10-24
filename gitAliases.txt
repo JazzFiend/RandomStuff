@@ -1,0 +1,7 @@
+alias.s status
+alias.co checkout
+alias.fix commit --amend -C HEAD
+alias.wc whatchanged
+alias.b branch -vv
+alias.up !git remote update -p; git merge --ff-only @{u}
+alias.c2u merge-base HEAD origin/master
